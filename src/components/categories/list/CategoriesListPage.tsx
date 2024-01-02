@@ -42,7 +42,7 @@ const CategoriesListPage : React.FC = () => {
     useEffect(() => {
         http_common.get<ICategoryItem[]>("/api/categories")
             .then(resp => {
-                console.log("Axios result ", resp.data);
+                //console.log("Axios result ", resp.data);
                 setList(resp.data);
             });
     },[]);
