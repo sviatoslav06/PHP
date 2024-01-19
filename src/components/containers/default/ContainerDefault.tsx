@@ -41,7 +41,7 @@ const ContainerDefault : React.FC = () => {
                             {
                                 key: '3',
                                 icon: <VideoCameraOutlined />,
-                                label: 'nav 3',
+                                label: <Link to={"/register"}>Register</Link>,
                             },
                         ]}
                     />
